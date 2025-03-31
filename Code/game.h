@@ -16,8 +16,8 @@
 #include "Station.h"
 #include "Player.h"
 #include <stack> //a enlever
-#include "queue.hpp" // a enlever
-#include "cListe.hpp"
+#include "Libs/queue.hpp" // a enlever
+#include "Libs/cListe.hpp"
 #include "Menu.h"
 #include "client.h"
 #include "UserInterface.h"

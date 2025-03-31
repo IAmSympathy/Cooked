@@ -130,36 +130,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Button.cpp" />
-    <ClCompile Include="client.cpp" />
-    <ClCompile Include="commande.cpp" />
-    <ClCompile Include="game.cpp" />
-    <ClCompile Include="ingredient.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="SoundtrackManager.cpp" />
-    <ClCompile Include="Station.cpp" />
-    <ClCompile Include="UserInterface.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Button.h" />
-    <ClInclude Include="client.h" />
-    <ClInclude Include="cListe.hpp" />
-    <ClInclude Include="commande.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="definitions.h" />
-    <ClInclude Include="ingredient.h" />
-    <ClInclude Include="Menu.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="SoundtrackManager.h" />
-    <ClInclude Include="stack.hpp" />
-    <ClInclude Include="Station.h" />
-    <ClInclude Include="UserInterface.h" />
-    <ClInclude Include="vecteur.hpp" />
+    <ClCompile Include="Code\Button.cpp" />
+    <ClCompile Include="Code\client.cpp" />
+    <ClCompile Include="Code\commande.cpp" />
+    <ClCompile Include="Code\game.cpp" />
+    <ClCompile Include="Code\ingredient.cpp" />
+    <ClCompile Include="Code\main.cpp" />
+    <ClCompile Include="Code\Menu.cpp" />
+    <ClCompile Include="Code\Player.cpp" />
+    <ClCompile Include="Code\SoundtrackManager.cpp" />
+    <ClCompile Include="Code\Station.cpp" />
+    <ClCompile Include="Code\UserInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="_Ressources\Textures\Recettes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Button.h" />
+    <ClInclude Include="Code\client.h" />
+    <ClInclude Include="Code\commande.h" />
+    <ClInclude Include="Code\definitions.h" />
+    <ClInclude Include="Code\game.h" />
+    <ClInclude Include="Code\ingredient.h" />
+    <ClInclude Include="Code\Libs\cListe.hpp" />
+    <ClInclude Include="Code\Libs\pile.hpp" />
+    <ClInclude Include="Code\Libs\queue.hpp" />
+    <ClInclude Include="Code\Libs\stack.hpp" />
+    <ClInclude Include="Code\Libs\vecteur.hpp" />
+    <ClInclude Include="Code\Menu.h" />
+    <ClInclude Include="Code\Player.h" />
+    <ClInclude Include="Code\SoundtrackManager.h" />
+    <ClInclude Include="Code\Station.h" />
+    <ClInclude Include="Code\UserInterface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

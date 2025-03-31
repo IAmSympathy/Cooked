@@ -333,7 +333,7 @@ void Game::drawInstructions()
 	sf::Font font;
 	font.loadFromFile(FONT_LOCATION);
 	_instruction.setPosition(sf::Vector2f(390, 370));
-	_instruction.setString("CONTROLES:\n\nCHANGER DE STATION\n- A,D OU FLECHES\n\nPRENDRE ET DEPOSER UN INGREDIENT\n- SPACE\n\nENVOYER UNE COMMANDE\n- ENTER\n\nOBJECTIF:\n\nCOMPLETER LES COMMANDES AVANT QUE\nLES CLIENTS PERDENT PATIENCE!");
+	_instruction.setString("CONTROLS:\n\nCHANGE STATION\n- A, D OR ARROW KEYS\n\nPICK UP AND DROP AN INGREDIENT\n- SPACE\n\nSEND AN ORDER\n- ENTER\n\nOBJECTIVE:\n\nCOMPLETE THE ORDERS BEFORE\nTHE CUSTOMERS LOSE PATIENCE!");
 	_instruction.setFont(font);
 	_instruction.setCharacterSize(30);
 

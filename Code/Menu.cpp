@@ -102,7 +102,7 @@ void Menu::initializeSettingMenu()
 	//button son
 	_button[1].setMinMaxValue(0, 1);
 	_button[1].setValue(1);
-	_button[1]._stringBase = "SON < ";
+	_button[1]._stringBase = "SOUND < ";
 	_button[1]._texte.setString(_button[1]._stringBase + std::to_string(_button[1].getValue()) + " >");
 	_button[1].centerTexte();
 
