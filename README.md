@@ -15,7 +15,7 @@ We were in a rush while making this, so don't look at the code unless you're hun
 
 @KiwiBunnyLuv - Menu art, Recipes logic, helped with art
 
-@IAmSympathy – Art, Player logic, Game Logic
+@IAmSympathy – Art, Player logic, Game logic
 
 
 
