@@ -11,7 +11,7 @@ We were in a rush while making this, so don't look at the code unless you're hun
 - Settings to change the music, the difficulty and to turn off the volume
 
 # Credits
-@Sun-Cy – Menu logic, Customers logic
+@Sun-Cy – Menu logic, Customers logic, helped with art
 
 @KiwiBunnyLuv - Menu art, Recipes logic
 
