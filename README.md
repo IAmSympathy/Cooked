@@ -11,11 +11,11 @@ We were in a rush while making this, so don't look at the code unless you're hun
 - Settings to change the music, the difficulty and to turn off the volume
 
 # Credits
-@Sun-Cy – Menu logic, Customers logic, helped with art
+@Sun-Cy – Menu logic, Customers logic, 
 
-@KiwiBunnyLuv - Menu art, Recipes logic
+@KiwiBunnyLuv - Menu art, Recipes logic, helped with art
 
-@IAmSympathy – Art, Player logic
+@IAmSympathy – Art, Player logic, Game Logic
 
 
 
