@@ -8,7 +8,7 @@ We were in a rush while making this, so don't look at the code unless you're hun
 
 # Contains
 - Infinite amount of levels with progressing difficulty and two types of recipes : Pizzas and Hamburgers
-- Settings to change the music, the difficulty and turn off the volume and
+- Settings to change the music, the difficulty and to turn off the volume
 
 # Credits
 @Sun-Cy – Menu logic, Customer logic
