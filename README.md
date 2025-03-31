@@ -4,7 +4,7 @@ This project was created as part of a school program.
 
 We had the constraint of using at least three data structures, like lists, stacks, and vectors
 
-We were in a rush while making this, so don't look at code the good unless you're hungry for spagetti.
+We were in a rush while making this, so don't look at the code unless you're hungry for spagetti.
 
 # Contains
 - Infinite amount of levels with progressing difficulty and two types of recipes : Pizzas and Hamburgers
