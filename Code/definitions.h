@@ -61,6 +61,7 @@ enum ingredients { STEAK, BREAD, TOMATO, LETTUCE, ONION, MUSHROOM, PEPPER, PEPPE
 
 //---------Location of ressources
 #define FONT_LOCATION "Cooked!_Data/Font/nintendo-nes-font.ttf"
+#define FONT_MENU_LOCATION "Cooked!_Data/Font/Roboto-Black.ttf"
 
 //Global
 #define PATH_AUDIO_MUSIC "Cooked!_Data/Audio/Music/soundtrack"
@@ -82,6 +83,7 @@ enum ingredients { STEAK, BREAD, TOMATO, LETTUCE, ONION, MUSHROOM, PEPPER, PEPPE
 #define SFX_NEW_ORDER_LOCATION "Cooked!_Data/Audio/Order_New.mp3"
 
 //Menu
+#define SFX_MENU_BUTTON_MOVE "Cooked!_Data/Audio/Menu_ButtonAccept.ogg"
 #define SFX_MENU_BUTTON_MOVE "Cooked!_Data/Audio/Menu_ButtonMove.ogg"
 #define GFX_MENU_BACKGROUND "Cooked!_Data/Menu/COOKED.png"
 #define GFX_MENU_BACKGROUND2 "Cooked!_Data/Menu/COOKED2.png"

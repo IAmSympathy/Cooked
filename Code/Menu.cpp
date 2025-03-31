@@ -3,17 +3,17 @@
 Menu::Menu()
 {
 	//background image
-	_backgroundTexture->loadFromFile("asset/mainMenu_notFinished.png");
+	_backgroundTexture->loadFromFile(GFX_MENU_BACKGROUND2);
 	_background.setSize(sf::Vector2f(1920, 1080));
 	_background.setTexture(_backgroundTexture);
 
 	//font
-	_font.loadFromFile("asset/font/Roboto-Black.ttf");
+	_font.loadFromFile(FONT_MENU_LOCATION);
 
 	//sound for the button
 
 	//_sonButton->loadFromFile("asset/ButtonSound.wav");
-	_sonButton->loadFromFile("asset/ButtonSound2.ogg");
+	_sonButton->loadFromFile(SFX_MENU_BUTTON_MOVE);
 }
 
 Menu::~Menu()
@@ -31,7 +31,7 @@ Menu::~Menu()
 
 void Menu::initializeMainMenu()
 {
-	_backgroundTexture->loadFromFile("asset/mainMenu_notFinished.png");
+	_backgroundTexture->loadFromFile(GFX_MENU_BACKGROUND2);
 	//besoin de 3 button
 	_nbButton = 3;
 	_button = new Button[_nbButton];
